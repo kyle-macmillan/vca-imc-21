@@ -78,4 +78,4 @@ a file called `stats.log`, also stored in the working directory.
 ***
 
 ## Requesting data
-We are happy to share the data we collected from our experiments
+We are happy to share the data we collected from our experiments upon request.
