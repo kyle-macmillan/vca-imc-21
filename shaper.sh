@@ -7,20 +7,14 @@ DNLD_RATE=$2
 UPLD_RATE=$3
 LATENCY=$4
 LOSS=$5
+IFACE=$6
 
 echo $CMD,$DNLD_RATE,$UPLD_RATE,$LATENCY,$LOSS
 
 
 # Name of the traffic control command.
 TC=tc
-
-
-IFACE=lan1          # Interface
-
-
 DNLD=${DNLD_RATE}mbit          # DOWNLOAD Limit
-
-
 UPLD=${UPLD_RATE}mbit          # UPLOAD Limit
 
 start() {
